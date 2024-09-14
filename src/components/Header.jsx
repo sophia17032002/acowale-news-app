@@ -86,7 +86,7 @@ function Header({ setArticles }) {
   }
 
   function handleSearch() {
-    let url = `https://gnews.io/api/v4/top-headlines?q=${query}&lang=${language}&country=${country}&sortby=${sortBy}&category=${category}&max=10&apikey=890868ed0dc9005ba8f2cbe066390b80`;
+    let url = `https://gnews.io/api/v4/top-headlines?q=${query}&lang=${language}&country=${country}&sortby=${sortBy}&category=${category}&max=10&apikey=YOUR_API_KEY`;
 
     fetch(url)
       .then(response => response.json())
