@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #dde0e5; 
+  color: #f9fafb; 
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  color: rgb(11, 231, 231);
+}
+
